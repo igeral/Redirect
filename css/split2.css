@@ -168,3 +168,11 @@
      }
 
 }
+
+h1 {
+     position: relative;
+     top: 50;
+     font-family: arial;
+     text-align: center;
+     padding: 20px;
+}
