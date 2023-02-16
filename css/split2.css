@@ -1,0 +1,74 @@
+* {
+     margin: 0;
+     box-sizing: border-box;
+     padding: 0;
+}
+
+.main-section {
+     display: flex;
+     flex-direction: column;
+     gap: 10%;
+     margin: 5% auto;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.main-section div {
+
+     padding: 5% 1%;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 20px;
+     justify-content: center;
+}
+
+.main-section div a img {
+     width: 100%;
+}
+
+.brand {
+     background-size: 196px 36px;
+     background-repeat: no-repeat;
+     margin-top: -36px;
+     position: absolute;
+     z-index: 2;
+     width: 196px;
+     height: 36px;
+}
+
+.brand-mobili {
+     background-image: url(/images/brand-mobili.svg);
+
+}
+
+.brand-salotti {
+     background-image: url(/images/brand-salotti.svg);
+}
+
+.brand-lavalle {
+     background-image: url(/images/brand-lavalle.svg);
+}
+
+.brand-valplana {
+     background-image: url(/images/brand-valplana.svg);
+}
+
+.brand-cucine {
+     background-image: url(/images/brand-cucine.svg);
+}
+
+.brand-office {
+     background-image: url(/images/brand-office.svg);
+}
+
+.fas {
+     font-size: 30px;
+}
+
+@media screen and (max-width:512px) {
+     .brand {
+          background-size: 90px 20px;
+          margin-top: -19px;
+     }
+}
