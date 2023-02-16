@@ -37,9 +37,22 @@ h1 {
      width: 100%;
 }
 
+
+
+@media screen and (max-width: 1024px) {
+     .main-section div {
+          width: 50%;
+          border: 7px solid black;
+          padding: 8% 3%;
+          border-radius: 15%;
+     }
+}
+
 @media screen and (max-width: 512px) {
      .main-section div {
           width: 50%;
           border: 3px solid black;
+          padding: 8% 4%;
+          border-radius: 15%;
      }
 }
