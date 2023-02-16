@@ -12,6 +12,7 @@
      justify-content: center;
      align-items: center;
      background-color: #dddcdc;
+     width: 100%;
 
 }
 
@@ -142,4 +143,28 @@
      background-size: 292px 29px;
      width: 292px;
      height: 29px;
+}
+
+@media screen and (max-width: 1024px) {
+     .arrow {
+          top: 41%;
+     }
+
+     .arrow span {
+          border-bottom: 2px solid black;
+          border-right: 2px solid black;
+     }
+
+}
+
+@media screen and (max-width: 512px) {
+     .arrow {
+          top: 33%;
+     }
+
+     .arrow span {
+          border-bottom: 1px solid black;
+          border-right: 1px solid black;
+     }
+
 }
